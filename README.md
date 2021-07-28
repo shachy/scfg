@@ -43,3 +43,13 @@ alias -mback "-back; checkfwd; alias checkback"
 alias -mleft "-moveleft; checkright; alias checkleft"
 alias -mright "-moveright; checkleft; alias checkright"
 ```
+
+`config.scfg`
+```go
+// This is a comment, will not be compiled
+```
+
+`output.scfg`
+```cfg
+# File compiled from config.scfg, using the scfg compiler
+```
