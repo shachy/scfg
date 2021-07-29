@@ -11,7 +11,7 @@ Download the zip file from the releases and run the exe file, you can add it to 
 bind {"f1", "f2", "f3"} {"say Hey", "say Hello", "say Bye"};
 bind "space" +djump;
 
-nulls
+bind {W, S, A, D} NULLS
 ```
 
 `output.cfg`
